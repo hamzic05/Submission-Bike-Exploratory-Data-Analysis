@@ -7,7 +7,7 @@ sns.set(style='dark')
 
 #ambil data day dan hour
 
-data_df = pd.read_csv("all_data.csv")
+data_df = pd.read_csv("https://raw.githubusercontent.com/hamzic05/Submission-Bike-Exploratory-Data-Analysis/main/dashboard/all_data.csv")
 data_df
 
 st.title('Submissions Dicoding')
