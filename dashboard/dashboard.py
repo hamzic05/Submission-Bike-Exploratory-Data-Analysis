@@ -7,7 +7,7 @@ sns.set(style='dark')
 
 #ambil data day dan hour
 
-data_df = pd.read_csv("./data/all_data.csv")
+data_df = pd.read_csv("all_data.csv")
 data_df
 
 st.title('Submissions Dicoding')
